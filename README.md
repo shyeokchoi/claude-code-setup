@@ -1,6 +1,6 @@
 # claude-code-setup
 
-A repository that sets up a development environment for Claude Code, including useful plugins, hooks, and recommended settings.
+A single Git repository for managing Claude Code settings globally. Define plugins, hooks, and recommended settings as skills, then let Claude Code set up the entire development environment for you.
 
 ## Prerequisites
 
@@ -26,6 +26,9 @@ A skill for creating new Claude Code skills. Useful for authoring and packaging 
 
 ### Status Line
 Displays a real-time status line in the terminal showing Claude Code session info such as model, mode, token usage, and cost.
+
+### tmux + Agent Team
+Installs tmux and enables Claude Code's Agent Team feature in split-pane mode, allowing agents to work in parallel across tmux panes.
 
 ### Set Default Mode to "Plan"
 No skill is needed for this — just edit `~/.claude/settings.json` directly and add the following option:
